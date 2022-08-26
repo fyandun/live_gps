@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Kinect Trials</name>
+    <open>1</open>
+    <description>Trials in Sporting Vina del Mar</description>
+	<Style id="CustomFY">
+		<IconStyle>
+			<scale>0.6</scale>
+			<Icon>
+				<href>/home/fyandun/Documents/catkin_ws/sensors/src/live_gps/Map Location Pins/PNG/pin-yellow-solid-13.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<Style id="CustomFY">
+		<IconStyle>
+			<scale>0.6</scale>
+			<Icon>
+				<href>/home/fyandun/Documents/catkin_ws/sensors/src/live_gps/Map Location Pins/PNG/pin-yellow-solid-13.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+    <Style id="redLineBluePoly">
+      <LineStyle>
+        <color>ff0000ff</color>
+		<width>2</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>ffff0000</color>
+      </PolyStyle>
+    </Style>		
+	<Placemark>
+		<styleUrl>#CustomFY</styleUrl>
+		<Point>
+			<altitudeMode>absolute</altitudeMode>
+			<coordinates>
+			-70.607793882692619,-33.499140599335455,288.84621521
+			</coordinates>
+		</Point>
+	</Placemark>		
+      <Placemark>
+		<altitudeMode>absolute</altitudeMode>
+        <name>Absolute</name>
+        <visibility>1</visibility>		
+        <description>
+		
+        </description>
+        <LookAt>
+          <longitude>
+		  
+		  </longitude>
+          <latitude>
+		  
+		  </latitude>
+          <altitude>50</altitude>
+          <heading>-106.8161545998597</heading>
+          <tilt>44.60763714063257</tilt>
+          <range>2569.386744398339</range>
+        </LookAt>
+        <styleUrl>
+		#redLineBluePoly
+		</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <altitudeMode>absolute</altitudeMode>
+			<coordinates> 
+		  		  
+			</coordinates>
+        </LineString>
+      </Placemark>   	  
+  </Document>
+</kml>
